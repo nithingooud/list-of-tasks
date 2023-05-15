@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { TaskViewComponent } from './pages/task-view/task-view.component';
 import { NewListComponent } from './pages/new-list/new-list.component';
 import { HttpClient } from '@angular/common/http';
+import { NewTaskComponent } from './pages/new-task/new-task.component';
 
 const routes: Routes = [
   {
@@ -11,7 +12,7 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'lists/new-list',
+    path: 'new-list',
     component: NewListComponent
   },
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'lists/:listId',
     component: TaskViewComponent
+  },
+  {
+    path: 'new-task',
+    component: NewTaskComponent
   }
 ];
 

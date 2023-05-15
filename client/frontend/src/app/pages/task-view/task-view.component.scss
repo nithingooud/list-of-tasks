@@ -4,7 +4,7 @@
     display: flex;
     width: 100%;
     height: 100%;
-    max-width: 900px;
+    max-width: 700px;
     max-height: 500px;
 }
 
@@ -82,4 +82,23 @@
     &.complete {
         text-decoration: line-through;
     }
+}
+
+.add-task {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 70%;
+    background-color: turquoise;
+    border: none;
+    align-items: center;
+    padding-bottom: 1.2rem;
+}
+
+.add-task-pos {
+    margin-top: 90%;
+    margin-left: 90%;
+}
+
+.plus {
+    font-size: 3rem;
 }
