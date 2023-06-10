@@ -24,7 +24,7 @@ const routes: Routes = [
     component: TaskViewComponent
   },
   {
-    path: 'new-task',
+    path: 'lists/:listId/new-task',
     component: NewTaskComponent
   }
 ];
